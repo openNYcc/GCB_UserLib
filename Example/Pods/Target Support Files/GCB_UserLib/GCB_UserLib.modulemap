@@ -1,0 +1,6 @@
+framework module GCB_UserLib {
+  umbrella header "GCB_UserLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

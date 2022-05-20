@@ -1,0 +1,22 @@
+{
+  "name": "GCB_UserLib",
+  "version": "0.1.0",
+  "summary": "A short description of GCB_UserLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/455858242@qq.com/GCB_UserLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "455858242@qq.com": "455858242@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/455858242@qq.com/GCB_UserLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GCB_UserLib/Classes/**/*"
+}

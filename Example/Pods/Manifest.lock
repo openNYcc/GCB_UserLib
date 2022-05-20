@@ -1,0 +1,16 @@
+PODS:
+  - GCB_UserLib (0.1.0)
+
+DEPENDENCIES:
+  - GCB_UserLib (from `../`)
+
+EXTERNAL SOURCES:
+  GCB_UserLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GCB_UserLib: b3db5b40391f22a438244c0cf77c71e0609d3b99
+
+PODFILE CHECKSUM: 6b1b076adc312a04fa9cc906008c416d6b8c5c43
+
+COCOAPODS: 1.10.2
