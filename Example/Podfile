@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GCB_UserLib_Example' do
+  pod 'GCB_UserLib', :path => '../'
+
+  target 'GCB_UserLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
