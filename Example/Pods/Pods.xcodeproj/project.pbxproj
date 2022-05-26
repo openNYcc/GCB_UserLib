@@ -14,6 +14,15 @@
 		61E0830F06CFC4CFA63882E75FAD8D44 /* GCB_UserLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3C7291E9837A42965A2D3061F994F9 /* GCB_UserLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8255DBA89EE050A3F36961DEEDE1623A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F24250BDA0BCA606C06C5C644D69E5F8 /* Pods-GCB_UserLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AFB1B0F44E6A8A77898C0905B0A148 /* Pods-GCB_UserLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4507D75283F697B00764ACC /* MVViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4507D73283F697B00764ACC /* MVViewController.h */; };
+		F4507D76283F697B00764ACC /* MVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4507D74283F697B00764ACC /* MVViewController.m */; };
+		F4507D79283F69AE00764ACC /* ModuleAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4507D77283F69AE00764ACC /* ModuleAViewController.h */; };
+		F4507D7A283F69AE00764ACC /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4507D78283F69AE00764ACC /* ModuleAViewController.m */; };
+		F4507D7D283F69CB00764ACC /* PageAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4507D7B283F69CB00764ACC /* PageAViewController.h */; };
+		F4507D7E283F69CB00764ACC /* PageAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4507D7C283F69CB00764ACC /* PageAViewController.m */; };
+		F4507D82283F6A2600764ACC /* Target_ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = F4507D80283F6A2600764ACC /* Target_ModuleA.h */; };
+		F4507D83283F6A2600764ACC /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = F4507D81283F6A2600764ACC /* Target_ModuleA.m */; };
+		F4507D85283F6E0900764ACC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4507D84283F6E0900764ACC /* UIKit.framework */; };
 		F50C9C166AC2DBCAD072CE223AA5C542 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498462FDE3A062B71147B366640B42B /* ReplaceMe.m */; };
 		F55B4DBC742E33E513C9504DB3C593E1 /* Pods-GCB_UserLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBD5804210FAE184777E6AC3C86590 /* Pods-GCB_UserLib_Example-dummy.m */; };
 		F86218154E2CB035517844E1EA4768EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -38,8 +47,8 @@
 
 /* Begin PBXFileReference section */
 		0498462FDE3A062B71147B366640B42B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GCB_UserLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		08CA6000AB11CFF80E75115BE778576E /* Pods_GCB_UserLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GCB_UserLib_Tests.framework; path = "Pods-GCB_UserLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23E2CDC0DF30BD42E54150647F7C7017 /* GCB_UserLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GCB_UserLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08CA6000AB11CFF80E75115BE778576E /* Pods_GCB_UserLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCB_UserLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E2CDC0DF30BD42E54150647F7C7017 /* GCB_UserLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GCB_UserLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		23F11ED890B70C1804B77FD0443AE737 /* GCB_UserLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCB_UserLib.modulemap; sourceTree = "<group>"; };
 		2D539096D88C58A0F4B8BDE223E76F82 /* Pods-GCB_UserLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCB_UserLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		2DCBD5804210FAE184777E6AC3C86590 /* Pods-GCB_UserLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCB_UserLib_Example-dummy.m"; sourceTree = "<group>"; };
@@ -47,7 +56,7 @@
 		3601245F597CEA02CB5885E665E76EA6 /* GCB_UserLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCB_UserLib.debug.xcconfig; sourceTree = "<group>"; };
 		3C244C33B2DF500598CC2CE9247E9B06 /* Pods-GCB_UserLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCB_UserLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		45F93B082BFE3C0529C2046D72E42592 /* Pods-GCB_UserLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCB_UserLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C3DC18A597DD54D9C14B24E7FF1F88A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5C3DC18A597DD54D9C14B24E7FF1F88A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5C6A84F63ABAA3DB7A247174435FC4EB /* Pods-GCB_UserLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCB_UserLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5F9275CEA442129C665656EA36087032 /* Pods-GCB_UserLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCB_UserLib_Example-Info.plist"; sourceTree = "<group>"; };
 		625C2878D24892BB15BEBF5DA65B5D3E /* Pods-GCB_UserLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCB_UserLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,19 +66,28 @@
 		7085C0219F866E19B329039F64D3BE49 /* Pods-GCB_UserLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCB_UserLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		77182BE0C5D58BDE944A739F8CA4B5D3 /* Pods-GCB_UserLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GCB_UserLib_Example.modulemap"; sourceTree = "<group>"; };
-		787683D1BC51CCC268543BA3DA8DE61D /* Pods_GCB_UserLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GCB_UserLib_Example.framework; path = "Pods-GCB_UserLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		787683D1BC51CCC268543BA3DA8DE61D /* Pods_GCB_UserLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCB_UserLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AFB1B0F44E6A8A77898C0905B0A148 /* Pods-GCB_UserLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCB_UserLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		94842C4F32DDED445DA3434CE9913FBE /* GCB_UserLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GCB_UserLib-Info.plist"; sourceTree = "<group>"; };
 		9540CB8EEDF77531287D5AC1CCBE78CB /* Pods-GCB_UserLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCB_UserLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D873E1F203851B10728F945E5578C22 /* Pods-GCB_UserLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCB_UserLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0FA91DF48DCC983382F27FD9B43BED0 /* Pods-GCB_UserLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCB_UserLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B129291665030AAE7730105257D7F6B1 /* Pods-GCB_UserLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GCB_UserLib_Tests.modulemap"; sourceTree = "<group>"; };
 		C4CE4ECD6132947AA421E8423A47F836 /* Pods-GCB_UserLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCB_UserLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C5E1D12D276C1417B62CA2532F7F3472 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C5E1D12D276C1417B62CA2532F7F3472 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5F2FDFA5BB7B459D8ED5A9713620D07 /* Pods-GCB_UserLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCB_UserLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C691F4B1EA0BC5ECC984F84744B711DB /* Pods-GCB_UserLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCB_UserLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F563208C12A21C413C0C19071FACBD3D /* GCB_UserLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCB_UserLib.framework; path = GCB_UserLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4507D73283F697B00764ACC /* MVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVViewController.h; sourceTree = "<group>"; };
+		F4507D74283F697B00764ACC /* MVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVViewController.m; sourceTree = "<group>"; };
+		F4507D77283F69AE00764ACC /* ModuleAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
+		F4507D78283F69AE00764ACC /* ModuleAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
+		F4507D7B283F69CB00764ACC /* PageAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageAViewController.h; sourceTree = "<group>"; };
+		F4507D7C283F69CB00764ACC /* PageAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageAViewController.m; sourceTree = "<group>"; };
+		F4507D80283F6A2600764ACC /* Target_ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleA.h; sourceTree = "<group>"; };
+		F4507D81283F6A2600764ACC /* Target_ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleA.m; sourceTree = "<group>"; };
+		F4507D84283F6E0900764ACC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F563208C12A21C413C0C19071FACBD3D /* GCB_UserLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCB_UserLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86218154E2CB035517844E1EA4768EE /* Foundation.framework in Frameworks */,
+				F4507D85283F6E0900764ACC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +218,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4507D84283F6E0900764ACC /* UIKit.framework */,
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
@@ -215,12 +235,44 @@
 		EBAB9BB19D21F56C774763F8ECA61E67 /* GCB_UserLib */ = {
 			isa = PBXGroup;
 			children = (
+				F4507D71283F67CE00764ACC /* Classes */,
 				0498462FDE3A062B71147B366640B42B /* ReplaceMe.m */,
 				A8C690166867F4075C629E207A08575F /* Pod */,
 				0240830D37A121311E754448A46534E9 /* Support Files */,
 			);
 			name = GCB_UserLib;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		F4507D71283F67CE00764ACC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4507D72283F694000764ACC /* Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F4507D72283F694000764ACC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4507D7F283F69F200764ACC /* Target */,
+				F4507D73283F697B00764ACC /* MVViewController.h */,
+				F4507D74283F697B00764ACC /* MVViewController.m */,
+				F4507D77283F69AE00764ACC /* ModuleAViewController.h */,
+				F4507D78283F69AE00764ACC /* ModuleAViewController.m */,
+				F4507D7B283F69CB00764ACC /* PageAViewController.h */,
+				F4507D7C283F69CB00764ACC /* PageAViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4507D7F283F69F200764ACC /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				F4507D80283F6A2600764ACC /* Target_ModuleA.h */,
+				F4507D81283F6A2600764ACC /* Target_ModuleA.m */,
+			);
+			path = Target;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +282,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4507D82283F6A2600764ACC /* Target_ModuleA.h in Headers */,
+				F4507D7D283F69CB00764ACC /* PageAViewController.h in Headers */,
+				F4507D79283F69AE00764ACC /* ModuleAViewController.h in Headers */,
+				F4507D75283F697B00764ACC /* MVViewController.h in Headers */,
 				61E0830F06CFC4CFA63882E75FAD8D44 /* GCB_UserLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,7 +439,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4507D7E283F69CB00764ACC /* PageAViewController.m in Sources */,
+				F4507D7A283F69AE00764ACC /* ModuleAViewController.m in Sources */,
+				F4507D83283F6A2600764ACC /* Target_ModuleA.m in Sources */,
 				402E477C65F033653C2C2AF4A15BD63E /* GCB_UserLib-dummy.m in Sources */,
+				F4507D76283F697B00764ACC /* MVViewController.m in Sources */,
 				F50C9C166AC2DBCAD072CE223AA5C542 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +478,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/iOSSupport/System/Library/Frameworks",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/GCB_UserLib/GCB_UserLib-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GCB_UserLib/GCB_UserLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -687,8 +751,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -706,6 +769,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/iOSSupport/System/Library/Frameworks",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/GCB_UserLib/GCB_UserLib-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GCB_UserLib/GCB_UserLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
