@@ -23,6 +23,8 @@
 		F4507D82283F6A2600764ACC /* Target_ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = F4507D80283F6A2600764ACC /* Target_ModuleA.h */; };
 		F4507D83283F6A2600764ACC /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = F4507D81283F6A2600764ACC /* Target_ModuleA.m */; };
 		F4507D85283F6E0900764ACC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4507D84283F6E0900764ACC /* UIKit.framework */; };
+		F4507D9728446A3600764ACC /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4507D9528446A3600764ACC /* BaseViewController.h */; };
+		F4507D9828446A3600764ACC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4507D9628446A3600764ACC /* BaseViewController.m */; };
 		F50C9C166AC2DBCAD072CE223AA5C542 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498462FDE3A062B71147B366640B42B /* ReplaceMe.m */; };
 		F55B4DBC742E33E513C9504DB3C593E1 /* Pods-GCB_UserLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBD5804210FAE184777E6AC3C86590 /* Pods-GCB_UserLib_Example-dummy.m */; };
 		F86218154E2CB035517844E1EA4768EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -87,6 +89,8 @@
 		F4507D80283F6A2600764ACC /* Target_ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleA.h; sourceTree = "<group>"; };
 		F4507D81283F6A2600764ACC /* Target_ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleA.m; sourceTree = "<group>"; };
 		F4507D84283F6E0900764ACC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4507D9528446A3600764ACC /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F4507D9628446A3600764ACC /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		F563208C12A21C413C0C19071FACBD3D /* GCB_UserLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCB_UserLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -235,6 +239,7 @@
 		EBAB9BB19D21F56C774763F8ECA61E67 /* GCB_UserLib */ = {
 			isa = PBXGroup;
 			children = (
+				F4507D94284469E400764ACC /* Base */,
 				F4507D71283F67CE00764ACC /* Classes */,
 				0498462FDE3A062B71147B366640B42B /* ReplaceMe.m */,
 				A8C690166867F4075C629E207A08575F /* Pod */,
@@ -275,6 +280,16 @@
 			path = Target;
 			sourceTree = "<group>";
 		};
+		F4507D94284469E400764ACC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F4507D9528446A3600764ACC /* BaseViewController.h */,
+				F4507D9628446A3600764ACC /* BaseViewController.m */,
+			);
+			name = Base;
+			path = GCB_UserLib/Classes/Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -282,6 +297,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4507D9728446A3600764ACC /* BaseViewController.h in Headers */,
 				F4507D82283F6A2600764ACC /* Target_ModuleA.h in Headers */,
 				F4507D7D283F69CB00764ACC /* PageAViewController.h in Headers */,
 				F4507D79283F69AE00764ACC /* ModuleAViewController.h in Headers */,
@@ -444,6 +460,7 @@
 				F4507D83283F6A2600764ACC /* Target_ModuleA.m in Sources */,
 				402E477C65F033653C2C2AF4A15BD63E /* GCB_UserLib-dummy.m in Sources */,
 				F4507D76283F697B00764ACC /* MVViewController.m in Sources */,
+				F4507D9828446A3600764ACC /* BaseViewController.m in Sources */,
 				F50C9C166AC2DBCAD072CE223AA5C542 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
