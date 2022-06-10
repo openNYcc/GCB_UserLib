@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.基本库
   s.author           = { '455858242@qq.com' => '455858242@qq.com' }
   s.source           = { :git => 'https://github.com/openNYcc/GCB_UserLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.dependency 'NYThirdPartyLib'
+#  s.dependency 'NYThirdPartyLib'
   s.ios.deployment_target = '9.0'
   
   s.source_files = 'GCB_UserLib/Classes/**/*'
