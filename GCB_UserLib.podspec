@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GCB_UserLib'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'A short description of GCB_UserLib.'
 
 # This description is used to generate tags and improve search results.
@@ -27,11 +27,16 @@ TODO: Add long description of the pod here.基本库
   s.author           = { '455858242@qq.com' => '455858242@qq.com' }
   s.source           = { :git => 'https://github.com/openNYcc/GCB_UserLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.dependency 'NYThirdPartyLib'
   s.ios.deployment_target = '9.0'
   
   s.source_files = 'GCB_UserLib/Classes/**/*'
-  
+  #设置 非ARC
+  non_arc_files = 'GCB_UserLib/Classes/NYThirdPartyLib/Json/*'
+  s.subspec 'no-arc' do |mrc|
+    mrc.source_files = non_arc_files
+    mrc.requires_arc = false
+  end
   # s.resource_bundles = {
   #   'GCB_UserLib' => ['GCB_UserLib/Assets/*.png']
   # }

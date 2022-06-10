@@ -509,7 +509,7 @@
 //退出
 - (void)popViewController
 {
-    [self.navigationController pop];
+    [self.navigationController popViewControllerAnimated:true];
 }
 
 - (void)setLeftBtnWithTitle:(NSString *)title image:(NSString *)imageName

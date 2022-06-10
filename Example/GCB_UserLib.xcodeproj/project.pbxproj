@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "455858242@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ETNJG449T3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -325,10 +328,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GCB_UserLib_Example/Pods-GCB_UserLib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GCB_UserLib/GCB_UserLib.framework",
+				"${BUILT_PRODUCTS_DIR}/NYThirdPartyLib/NYThirdPartyLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCB_UserLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYThirdPartyLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,6 +499,7 @@
 			baseConfigurationReference = B43E4A6EDA96C63122B49555 /* Pods-GCB_UserLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ETNJG449T3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCB_UserLib/GCB_UserLib-Prefix.pch";
 				INFOPLIST_FILE = "GCB_UserLib/GCB_UserLib-Info.plist";
@@ -510,6 +516,7 @@
 			baseConfigurationReference = 0D585925B26BA0404E42CC56 /* Pods-GCB_UserLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ETNJG449T3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCB_UserLib/GCB_UserLib-Prefix.pch";
 				INFOPLIST_FILE = "GCB_UserLib/GCB_UserLib-Info.plist";

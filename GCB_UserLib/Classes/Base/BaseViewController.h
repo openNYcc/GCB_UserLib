@@ -6,7 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "NYPubLibImport.h"
+#import "BaseFunction.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseViewController : UIViewController

@@ -1,16 +1,25 @@
 PODS:
-  - GCB_UserLib (0.1.0)
+  - GCB_UserLib (0.4.0):
+    - NYThirdPartyLib
+  - NYThirdPartyLib (0.7.0):
+    - NYThirdPartyLib/no-arc (= 0.7.0)
+  - NYThirdPartyLib/no-arc (0.7.0)
 
 DEPENDENCIES:
   - GCB_UserLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/openNYcc/NYSpec.git:
+    - NYThirdPartyLib
 
 EXTERNAL SOURCES:
   GCB_UserLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GCB_UserLib: b3db5b40391f22a438244c0cf77c71e0609d3b99
+  GCB_UserLib: c94be1497d9cd93e3b23ed39ef8b31049a28d0c5
+  NYThirdPartyLib: b61863079d3f4c5beb386334247dad01c39ca1bc
 
-PODFILE CHECKSUM: 6b1b076adc312a04fa9cc906008c416d6b8c5c43
+PODFILE CHECKSUM: 144d7d915249c808cd347b33fe81439861c4d5b4
 
 COCOAPODS: 1.10.2

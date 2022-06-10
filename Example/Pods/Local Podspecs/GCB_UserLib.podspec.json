@@ -1,9 +1,9 @@
 {
   "name": "GCB_UserLib",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "summary": "A short description of GCB_UserLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/455858242@qq.com/GCB_UserLib",
+  "description": "TODO: Add long description of the pod here.基本库",
+  "homepage": "https://github.com/openNYcc/GCB_UserLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,13 @@
     "455858242@qq.com": "455858242@qq.com"
   },
   "source": {
-    "git": "https://github.com/455858242@qq.com/GCB_UserLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/openNYcc/GCB_UserLib.git",
+    "tag": "0.4.0"
+  },
+  "dependencies": {
+    "NYThirdPartyLib": [
+
+    ]
   },
   "platforms": {
     "ios": "9.0"
